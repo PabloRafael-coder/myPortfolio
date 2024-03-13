@@ -1,11 +1,22 @@
 import React from 'react';
 
-import { Container } from './styled';
+import { Container, Header, Navbar } from './styled';
 
 function Home() {
   return (
     <Container>
-      <h1>Item renderizado</h1>
+      <Header>
+        <p>Item renderizado</p>
+
+        <p>Item renderizado</p>
+        <Navbar>
+          <p>Home</p>
+          <p>Sobre</p>
+          <p>Projetos</p>
+          <p>Login</p>
+        </Navbar>
+      </Header>
+      
     </Container>
   );
 }
